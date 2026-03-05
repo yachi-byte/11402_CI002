@@ -9,9 +9,10 @@
    - 1133314 葉冠琪
    - YZU CSE 
 
-## 📁 Folder Organization
-- `Assignment/`: Contains all my homework files.
-- `Docs/`: Contains course notes and documentation
+## 📁 索引
+- [ 課堂練習區 (Practice)](./Example/)
+   - 這裡存放每周的課堂實作和練習。
+   - 👉 **[Practice](./Example/)**
 
 ## More Information
    - 🌐網址  
