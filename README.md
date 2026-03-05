@@ -1,7 +1,7 @@
 # 11402_CI002 Course Repository
 ---
 ##  About This Repository
-這裡記錄了 114學年度第2學期 CI002 的學習歷程，內容包含我的程式實作。
+> 這裡記錄了 114學年度第2學期 CI002 的學習歷程，內容包含我的程式實作。
 
 ### Course Information
    - Instructor: Yu-Feng Huang
