@@ -7,8 +7,10 @@ int main()
 {
 	int n;
 	int max_mount = 250;
-	vector <int,vector<int>> dp(max_mount,(77,0));
+	//vector <int,vector<int>> dp(max_mount,(77,0));
+	vector<vector<int>> dp(max_mount + 1, vector<int>(77, 0)); //mpdify
 	vector<int> sum(77,0);
+	
 	sum[0] = 2;
 	dp[0] = 1;
 	dp[1] = 1;
