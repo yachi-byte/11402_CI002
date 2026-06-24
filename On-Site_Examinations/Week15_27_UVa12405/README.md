@@ -7,9 +7,10 @@ Use this template to review your coding performance for each problem. Write clea
 - **Platform:** UVa 
 - **Problem ID:** 12405
 - **Problem Title:** Scarecrow
-- **Problem Link:** https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3836
-- **Source Code (Fail):** [src/your-file-name.cpp](./src/your-file-name.cpp)
-- **Source Code (Correct/Accepted):** [src/your-file-name.cpp](./src/your-file-name.cpp)
+- **Problem Link:** [UVa12405](https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3836)
+- **Source Code (on site)(AC):** [12405.cpp](./src/12405.cpp)
+- **Source Code (modified)(AC):** [12405_modify.cpp](./src/12405_modify.cpp)
+
 
 ## 2. Problem Statement in My Own Words
 ```text
