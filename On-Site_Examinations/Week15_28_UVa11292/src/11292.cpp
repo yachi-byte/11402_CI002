@@ -1,6 +1,4 @@
-// 12405 
-
-
+// 11292 
 #include <iostream>
 #include <algorithm>
 #include <string>
@@ -13,10 +11,10 @@ int main()
 	int n, m;
 	int test = 0;
 
-	while (cin >> n>>m && n!=0 && m!=0) {
+	while (cin >> n >> m && n != 0 && m != 0) {
 		vector<int> dragon(n, 0);
-		vector<int> knight (m, 0);
-		
+		vector<int> knight(m, 0);
+
 
 		for (int i = 0; i < n; i++) {
 			cin >> dragon[i];
@@ -25,32 +23,41 @@ int main()
 			cin >> knight[i];
 		}
 
-		sort(dragon.begin(), dragon.end());
-		sort(knight.begin(), knight.end());
-		
-		int cost = 0;
-		vector<int> waste(m, 0);
+		//knight >= dragon
+		if (m >= n) {
 
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				 
-				if (knight[j] >= dragon[i] && waste[j] != 0) {
-					
-					cost += knight[j];
+			sort(dragon.begin(), dragon.end());
+			sort(knight.begin(), knight.end());
+
+			int cost = 0;
+			int d = 0;
+			int k = 0;
+			for (int i = k; i < m; i++) {
+				// 
+				if (d == n)
 					break;
-				}
-					
+
+				if (knight[i] >= dragon[d]) {
+					k = i;
+					cost += knight[i];
+					d++;
 				}
 			}
+
+			if (d == n) {
+				cout << cost << endl;
+			}
+			else {
+				cout << "Loowater is doomed!" << endl;
+			}
 		}
-
-		
-
-		cout << "Case " << test + 1 << ": " << endl;
-		test++;
-
-
+		else {
+			cout << "Loowater is doomed!" << endl;
+		}
 	}
+	return 0;
+}
+
 
 
 
