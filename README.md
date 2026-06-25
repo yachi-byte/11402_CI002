@@ -1,4 +1,4 @@
-# 💻 Yuan Ze University CSIE - On-Site 程式檢定解題紀錄庫
+# CI002 - On-Site紀錄庫
 
 
 ## Repository Description
@@ -7,7 +7,7 @@
 
 核心內容皆在 `On-Site_Examinations` 資料夾中。可以透過下方的鏈結直接進入該目錄檢視，或直接查閱下方的進度總覽表格：
 
-[👉  On-Site_Examinations 資料夾](./On-Site_Examinations/)
+### [👉 On-Site_Examinations 資料夾](./On-Site_Examinations/)
 ---
 
 ## On-site 解題進度與報告總覽
