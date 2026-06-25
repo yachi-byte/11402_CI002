@@ -1,4 +1,4 @@
-// s1133314-11150.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 11150.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
